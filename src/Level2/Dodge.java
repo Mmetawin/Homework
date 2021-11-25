@@ -11,7 +11,7 @@ abstract class Dodge {
         public void setNext(Dodge lvn){
                 this.next=lvn;
         }
-        public Dodge Dedaonext() {
+        public Dodge getNext() {
                 return next;
         }
 }

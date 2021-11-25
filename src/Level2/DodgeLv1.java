@@ -11,8 +11,7 @@ public class DodgeLv1 extends Dodge {
             //现在相当于dodgelv2.dodgeEnemy(enemy)
             //然后因为enemy是传进来的，所以像传家宝一样再传给dodgelv2
             //就是不满足dodgelv1时就调用dodgelv2,以此调下去
-            //但其实耦合还蛮紧的，不知道可不可以解耦呜呜呜
-            this.Dedaonext().dodgeEnemy(enemy);
+            this.getNext().dodgeEnemy(enemy);
         }
     }
 }

@@ -7,7 +7,7 @@ public class DodgeLv2 extends Dodge{
             System.out.println("王子挡下一击后逃跑QAQ");
         }else{
             //虽然复制粘贴还蛮多的，但好在改动不大
-            this.Dedaonext().dodgeEnemy(enemy);
+            this.getNext().dodgeEnemy(enemy);
         }
     }
 }
