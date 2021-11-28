@@ -1,4 +1,4 @@
-package Counterattack;
+package Level1;
 
 public class Monster {
     public int hp;

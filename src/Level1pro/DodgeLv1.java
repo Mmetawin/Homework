@@ -1,4 +1,4 @@
-package Level2;
+package Level1pro;
 
 public class DodgeLv1 extends Dodge {
     @Override

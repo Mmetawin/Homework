@@ -1,4 +1,4 @@
-package Counterattack;
+package Level1;
 
 import java.util.Scanner;
  class outofhpException extends Exception{
